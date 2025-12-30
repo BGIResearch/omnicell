@@ -1,20 +1,20 @@
 <img width="6350" height="8980" alt="Figure1_01(1)" src="https://github.com/user-attachments/assets/8b12a2a7-1632-4117-9611-de78b9234d1f" />
 
-# OmniCell 模型使用教程
+# OmniCell Model Usage Tutorial
 
-## 环境准备
+## Environment Setup
 
-### 1. 安装依赖包
+### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-### 2. 下载模型检查点
-访问 [https://modelscope.cn/models/PJSucas/OmniCell-v1](https://modelscope.cn/models/PJSucas/OmniCell-v1)，下载模型检查点文件到 `OmniCell/checkpoint/` 目录下。
+### 2. Download Model Checkpoint
+Visit [https://modelscope.cn/models/PJSucas/OmniCell-v1](https://modelscope.cn/models/PJSucas/OmniCell-v1) to download the model checkpoint file to the `OmniCell/checkpoint/` directory.
 
-### 3. 下载评测数据
-访问 [https://modelscope.cn/datasets/PJSucas/OmniCell-test-data](https://modelscope.cn/datasets/PJSucas/OmniCell-test-data)，下载评测数据集。
+### 3. Download Evaluation Data
+Visit [https://modelscope.cn/datasets/PJSucas/OmniCell-test-data](https://modelscope.cn/datasets/PJSucas/OmniCell-test-data) to download the evaluation dataset.
 
-## 运行教程
+## Running the Tutorial
 
-### 启动Jupyter Notebook
-在`tutorials/Tutorial_Cluster_blood.ipynb` 文件中学习使用提取细胞embedding的方法
+### Launch Jupyter Notebook
+Learn how to extract cell embeddings in the `tutorials/Tutorial_Cluster_blood.ipynb` file.
